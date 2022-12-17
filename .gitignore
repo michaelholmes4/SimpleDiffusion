@@ -1,0 +1,8 @@
+inference
+outputs
+plots
+runs
+autosave.pth
+brain.pth
+celebA.pth
+test1.pth
