@@ -1,4 +1,6 @@
 # Simple Diffusion Image Generation
+This was a project submitted to the University of Queensland for the course COMP3710.
+
 
 Simple diffusion based image generation using PyTorch. This model can learn from a dataset of images and generate new images that are perceptually similar to those in the dataset.
 ![plot_epoch94](https://user-images.githubusercontent.com/99728921/200819650-d44fd0d3-9529-4c9b-bb1b-3c932a0abf40.jpeg)
