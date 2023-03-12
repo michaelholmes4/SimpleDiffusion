@@ -97,7 +97,7 @@ This project uses a simplified U-Net design omitting some of the features descri
 ## Examples
 
 ### AKOA Knee 
-Using part of the [AKOA Knee dataset](https://nda.nih.gov/oai/) consisting of 18,681 MRI images. Image size 128x128, batch size 64, 1000 Timesteps, 100 epochs. Download the pretrained [model](https://hcloudh.com/nextcloud/s/zQ4FzxGJd2aXzA8/download/AKOA2.pth).
+Using part of the [AKOA Knee dataset](https://nda.nih.gov/oai/) consisting of 18,681 MRI images. Image size 128x128, batch size 64, 1000 Timesteps, 100 epochs. Download the pretrained [model](https://files.hcloudh.com/s/RpeZZBzLJ9aKaxt).
 #### Training
 Epoch 0
 ![plot_epoch0](https://user-images.githubusercontent.com/99728921/200819735-050b1a40-d0fc-4a82-a7aa-a204effd69cf.jpeg)
@@ -117,7 +117,7 @@ Epoch 99
 ![predict5](https://user-images.githubusercontent.com/99728921/200820048-a569e7f8-0e11-4487-908a-fc84ac1d2a7c.jpeg)
 
 ### OASIS Brain
-Using the [OASIS Brain](https://www.oasis-brains.org/) with 11,329 images. Image size 128x128, 1000 Timesteps, batch size 32, 100 epochs. Notice the artifacts due to the small batch size. Download the pre-trained [model](https://hcloudh.com/nextcloud/s/PpmLt5xTZLQHXHE/download/brain.pth).
+Using the [OASIS Brain](https://www.oasis-brains.org/) with 11,329 images. Image size 128x128, 1000 Timesteps, batch size 32, 100 epochs. Notice the artifacts due to the small batch size. Download the pre-trained [model](https://files.hcloudh.com/s/yzwJodT3KNQ75SZ).
 #### Training
 Epoch 0
 ![plot_epoch0](https://user-images.githubusercontent.com/99728921/200820555-6a8f8705-52a6-484a-bd5c-923dc1ba2c77.jpeg)
@@ -139,7 +139,7 @@ Epoch 99
 
 
 ### CelebA Dataset
-Just for fun, the model was also trained on the [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset (aligned and cropped) consisting of around 200,000 images. Image size 128x128, batch size 64, 1000 Timesteps, 100 epochs. Download the pre-trained [model](https://hcloudh.com/nextcloud/s/ma6ww8GF5XEoysT/download/celebA.pth). The network does well with the faces but struggles in generating hair and backgrounds.
+Just for fun, the model was also trained on the [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset (aligned and cropped) consisting of around 200,000 images. Image size 128x128, batch size 64, 1000 Timesteps, 100 epochs. Download the pre-trained [model](https://files.hcloudh.com/s/afFyEzRmmNHk2KM). The network does well with the faces but struggles in generating hair and backgrounds.
 
 #### Training 
 Epoch 0
